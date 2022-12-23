@@ -27,7 +27,6 @@ const channels: Channels = [
 	{ channel: '1054430039233536073', emojis: ['<a:akafeheart:1009602965616726026>'], msgs: ["❕l-lewds.. w-where's the lewds >W> haahh, haaah~ ahhnn, post more lewds~!!"], t: 10, d: false }, //NN_futa
 	{ channel: '1054585693906677840', emojis: ['<a:akafeheart:1009602965616726026>'], msgs: ["❕l-lewds.. w-where's the lewds >W> haahh, haaah~ ahhnn, post more lewds~!!"], t: 10, d: false }, //NN_trap
 	{ channel: '1054586516053168159', emojis: ['<a:akafeheart:1009602965616726026>'], msgs: ["❕l-lewds.. w-where's the lewds >W> haahh, haaah~ ahhnn, post more lewds~!!"], t: 10, d: false }, //NN_furry
-	{ channel: '1054430039233536077', emojis: ['<a:akafeheart:1009602965616726026>'], msgs: ["❕l-lewds.. w-where's the lewds >W> haahh, haaah~ ahhnn, post more lewds~!!"], t: 10, d: false }, //NN_greyment
 ];
 
 export default async (message: Message<boolean>) => {
