@@ -16,15 +16,14 @@ export default new Event({
 		if (beta) channelManager(message);
 		idkWhatToCallThisHandler(message);
 
-		const prefixes = beta ? [] : ['.', '<@995370187626905611>'];
+		const prefixes = beta ? [] : ['.', '<@1055960319161282630>'];
 		const configPrefixes = beta ? await Config.findAll({ where: { type: 'prefix' } }) : [];
 		for (const prefix of configPrefixes) {
 			prefixes.push(prefix.data);
 		}
-		if (!prefixes[0]) prefixes.push('hm!');
+		if (!prefixes[0]) prefixes.push('nm!');
 		const prefix = prefixes.find((p) => message.content.startsWith(p));
 		if (prefix === undefined) return;
-		if (!beta && message.guildId !== '632717913169854495') return;
 		prefixCommand(message, prefix, message.client);
 	},
 });

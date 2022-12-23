@@ -7,7 +7,6 @@ export default new Event({
 	on: true,
 	async fn(member: GuildMember) {
 		const channels = [
-			{ guild: '632717913169854495', channel: '1005657796802519192' },
 			{ guild: '1054430033097277461', channel: '1054430038197534856' },
 			{ guild: '981639333549322262', channel: '1003983050692116550' },
 		];
