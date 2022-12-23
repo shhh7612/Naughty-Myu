@@ -63,7 +63,7 @@ Quote.init(
 	{ sequelize, modelName: 'Quotes', timestamps: true }
 );
 Quote.afterCreate('s', async (quote) => {
-	const channelID = beta ? '1002785897005199480' : '1004144428019097600';
+	const channelID = beta ? '1002785897005199480' : '1054430037643894830';
 	const channel = await client.channels.fetch(channelID).catch((e) => {});
 	const createdBy = await client.users.fetch(quote.createdBy);
 	if (channel && channel?.isTextBased()) {
@@ -73,7 +73,7 @@ Quote.afterCreate('s', async (quote) => {
 	}
 });
 Quote.afterDestroy('s', async (quote) => {
-	const channelID = beta ? '1002785897005199480' : '1004144428019097600';
+	const channelID = beta ? '1002785897005199480' : '1054430037643894830';
 	const channel = await client.channels.fetch(channelID).catch((e) => {});
 	const createdBy = await client.users.fetch(quote.createdBy);
 	if (channel && channel?.isTextBased()) {
