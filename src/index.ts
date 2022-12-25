@@ -53,7 +53,7 @@ if (!beta) {
 	setInterval(() => {
 		exec('ping -c 1 8.8.8.8', (e, stdout, stderr) => {
 			if (e !== null) missedCheckIns++;
-			if (missedCheckIns > 20) {
+			if (missedCheckIns > 75) {
 				console.log('Too many check-ins missed, restarting...');
 				process.kill(0);
 			}
