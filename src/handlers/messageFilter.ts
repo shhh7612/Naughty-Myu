@@ -7,76 +7,70 @@ const channels: Channels = [
     { channel: '995368611822706708', emojis: ['💖'], msgs: ['>:('], t: 0, d: true }, //SB_msgblocktest
     {
         channel: '1054430036146528290',
-        emojis: [
-            '<a:akafeheart:1009602965616726026>',
-            '<:cocsmile:960630832219971624>',
-            '<:chopain:960614470940504075>',
-            '<:cindizzy:960630695464669214>',
-            '<:mapmad:960614761349935134>',
-        ],
+        emojis: ['<a:a_:1059211565712281730>', '<:b:1059212450358104155>', '<:c:1059212505588699167>', '<:d:1059212548047654943> ', '<:e:1059212587406995496>'],
         msgs: ['Nyuuu~ no tyext in the meme channel~! >w<', 'Bakaa customer~, read the channel descwiption~! >w>', 'Nyaaa~! Memes only means memes onlyy~ >w>'],
         t: 0,
         d: true,
     }, //NN_memes-only
-    { channel: '1054504499043123240', emojis: ['<a:akafeheart:1009602965616726026>'], msgs: ['>'], t: 999999999, d: false }, //NN_meow-chat
-    { channel: '1054540453061611532', emojis: ['<a:akafeheart:1009602965616726026>'], msgs: ['>'], t: 999999999, d: false }, //NN_vanilla
-    { channel: '1054540472611246131', emojis: ['<a:akafeheart:1009602965616726026>'], msgs: ['>'], t: 999999999, d: false }, //NN_chocola
-    { channel: '1054533703004594257', emojis: ['<a:akafeheart:1009602965616726026>'], msgs: ['>'], t: 999999999, d: false }, //NN_azuki
-    { channel: '1054533717013577769', emojis: ['<a:akafeheart:1009602965616726026>'], msgs: ['>'], t: 999999999, d: false }, //NN_coconut
-    { channel: '1054533728598245426', emojis: ['<a:akafeheart:1009602965616726026>'], msgs: ['>'], t: 999999999, d: false }, //NN_maple
-    { channel: '1054533742070333501', emojis: ['<a:akafeheart:1009602965616726026>'], msgs: ['>'], t: 999999999, d: false }, //NN_cinnamon
+    { channel: '1054504499043123240', emojis: ['<a:a_:1059211565712281730>'], msgs: ['>'], t: 999999999, d: false }, //NN_meow-chat
+    { channel: '1054540453061611532', emojis: ['<a:a_:1059211565712281730>'], msgs: ['>'], t: 999999999, d: false }, //NN_vanilla
+    { channel: '1054540472611246131', emojis: ['<a:a_:1059211565712281730>'], msgs: ['>'], t: 999999999, d: false }, //NN_chocola
+    { channel: '1054533703004594257', emojis: ['<a:a_:1059211565712281730>'], msgs: ['>'], t: 999999999, d: false }, //NN_azuki
+    { channel: '1054533717013577769', emojis: ['<a:a_:1059211565712281730>'], msgs: ['>'], t: 999999999, d: false }, //NN_coconut
+    { channel: '1054533728598245426', emojis: ['<a:a_:1059211565712281730>'], msgs: ['>'], t: 999999999, d: false }, //NN_maple
+    { channel: '1054533742070333501', emojis: ['<a:a_:1059211565712281730>'], msgs: ['>'], t: 999999999, d: false }, //NN_cinnamon
     {
         channel: '1054430038721839220',
-        emojis: ['<a:akafeheart:1009602965616726026>'],
+        emojis: ['<a:a_:1059211565712281730>'],
         msgs: ["❕l-lewds.. w-where's the lewds >W> haahh, haaah~ ahhnn, post more lewds~!!"],
         t: 10,
         d: false,
     }, //NN_ecchi
     {
         channel: '1054430039233536071',
-        emojis: ['<a:akafeheart:1009602965616726026>'],
+        emojis: ['<a:a_:1059211565712281730>'],
         msgs: ["❕l-lewds.. w-where's the lewds >W> haahh, haaah~ ahhnn, post more lewds~!!"],
         t: 10,
         d: false,
     }, //NN_love-hotel
     {
         channel: '1054430039233536072',
-        emojis: ['<a:akafeheart:1009602965616726026>'],
+        emojis: ['<a:a_:1059211565712281730>'],
         msgs: ["❕l-lewds.. w-where's the lewds >W> haahh, haaah~ ahhnn, post more lewds~!!"],
         t: 10,
         d: false,
     }, //NN_love-hotel-3d
     {
         channel: '1054585186332975114',
-        emojis: ['<a:akafeheart:1009602965616726026>'],
+        emojis: ['<a:a_:1059211565712281730>'],
         msgs: ["❕l-lewds.. w-where's the lewds >W> haahh, haaah~ ahhnn, post more lewds~!!"],
         t: 10,
         d: false,
     }, //NN_femdom
     {
         channel: '1054430039233536074',
-        emojis: ['<a:akafeheart:1009602965616726026>'],
+        emojis: ['<a:a_:1059211565712281730>'],
         msgs: ["❕l-lewds.. w-where's the lewds >W> haahh, haaah~ ahhnn, post more lewds~!!"],
         t: 10,
         d: false,
     }, //NN_giantess
     {
         channel: '1054430039233536073',
-        emojis: ['<a:akafeheart:1009602965616726026>'],
+        emojis: ['<a:a_:1059211565712281730>'],
         msgs: ["❕l-lewds.. w-where's the lewds >W> haahh, haaah~ ahhnn, post more lewds~!!"],
         t: 10,
         d: false,
     }, //NN_futa
     {
         channel: '1054585693906677840',
-        emojis: ['<a:akafeheart:1009602965616726026>'],
+        emojis: ['<a:a_:1059211565712281730>'],
         msgs: ["❕l-lewds.. w-where's the lewds >W> haahh, haaah~ ahhnn, post more lewds~!!"],
         t: 10,
         d: false,
     }, //NN_trap
     {
         channel: '1054586516053168159',
-        emojis: ['<a:akafeheart:1009602965616726026>'],
+        emojis: ['<a:a_:1059211565712281730>'],
         msgs: ["❕l-lewds.. w-where's the lewds >W> haahh, haaah~ ahhnn, post more lewds~!!"],
         t: 10,
         d: false,
