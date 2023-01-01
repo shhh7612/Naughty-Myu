@@ -21,7 +21,7 @@ export default new Event({
                         name: `${member.user.tag} (${member.id}) Joined ♡`,
                         icon_url: member.displayAvatarURL(),
                     },
-                    color: 0xfab6ec,
+                    color: 0xa2e0ea,
                     description: `♡ Created: <t:${created}> (<t:${created}:R>)\n\n<t:${joined}> (<t:${joined}:R>)`,
                 },
             ],
