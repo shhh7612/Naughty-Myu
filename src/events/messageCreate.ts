@@ -1,9 +1,7 @@
 import type { Message } from 'discord.js';
 import prefixCommand from '../handlers/prefixCommand.js';
-import { beta } from '../index.js';
-import Config from '../structures/database/config.js';
-import channelManager from '../handlers/channelManagerV2.js';
-import idkWhatToCallThisHandler from '../handlers/messageFilter.js';
+import { Config } from '../handlers/database/mongo.js';
+import messageFilter from '../handlers/messageFilter.js';
 import { Event } from '../structures/event.js';
 
 export default new Event({
@@ -11,18 +9,11 @@ export default new Event({
     on: true,
     async fn(message: Message<boolean>) {
         if (message.author.bot) return;
-        if (message.member?.displayName.toLowerCase().includes('mouse') && Math.ceil(Math.random() * 49) === 42) message.channel.send('🧀');
-        if (message.content.toLowerCase().includes('stfu')) message.channel.send('slice the fudge, uwuu~ <3');
-        if (beta) channelManager(message);
-        idkWhatToCallThisHandler(message);
+        messageFilter(message);
 
-        const prefixes = beta ? [] : ['.', '<@1055960319161282630>'];
-        const configPrefixes = beta ? await Config.findAll({ where: { type: 'prefix' } }) : [];
-        for (const prefix of configPrefixes) {
-            prefixes.push(prefix.data);
-        }
-        if (!prefixes[0]) prefixes.push('nm!');
-        const prefix = prefixes.find((p) => message.content.startsWith(p));
+        const prefixes = await Config.find({ type: 'prefix' }).toArray();
+        if (!prefixes[0]) prefixes.push({ _id: null, type: 'prefix', data: 'hm!' });
+        const prefix = prefixes.find((p) => message.content.startsWith(p.data as string))?.data as string;
         if (prefix === undefined) return;
         prefixCommand(message, prefix, message.client);
     },
