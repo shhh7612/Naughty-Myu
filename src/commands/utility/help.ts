@@ -24,7 +24,7 @@ export default new Command({
             interaction.editReply({
                 embeds: [
                     {
-                        color: 0xfab6ec,
+                        color: 0xa2e0ea,
                         title: 'Help',
                         description: makeDefaultText(interaction.client, true),
                         timestamp: new Date().toISOString(),
@@ -46,7 +46,7 @@ export default new Command({
             message.reply({
                 embeds: [
                     {
-                        color: 0xfab6ec,
+                        color: 0xa2e0ea,
                         title: 'Help',
                         description: makeDefaultText(message.client, false),
                         timestamp: new Date().toISOString(),
@@ -95,7 +95,7 @@ function makeCommandEmbed(query: string, client: Client, user: User) {
     const command = client.legacyCommands.find((command) => command.commandObject.name === query || command.commandObject.aliases.includes(query));
     if (!command?.commandObject) {
         return {
-            color: 0xfab6ec,
+            color: 0xa2e0ea,
             title: 'Help',
             description: makeDefaultText(client, false, true),
             timestamp: new Date().toISOString(),
@@ -106,7 +106,7 @@ function makeCommandEmbed(query: string, client: Client, user: User) {
         };
     }
     return {
-        color: 0xfab6ec,
+        color: 0xa2e0ea,
         title: command.commandObject.name,
         description: 'WIP',
         timestamp: new Date().toISOString(),

@@ -5,7 +5,7 @@ import importData from './import.js';
 
 await mongoClient.connect();
 mongoClient.on('connectionReady', () => console.log('Database Online'));
-const database = mongoClient.db(beta ? 'MB' : 'HM');
+const database = mongoClient.db(beta ? 'MB' : 'NM');
 
 glob('./data/imports/*.json', async (err: Error | null, paths: Array<string>) => {
     for (const path of paths) {
